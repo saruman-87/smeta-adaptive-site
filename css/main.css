@@ -1,0 +1,16 @@
+@import url(normalize.css);
+@import url(vars.css);
+@import url(fonts.css);
+@import url(ui-kit/text.css);
+@import url(ui-kit/promo.css);
+@import url(ui-kit/buttons.css);
+@import url(lauout/container.css);
+@import url(lauout/header.css);
+
+
+body {
+  font-family: var(--font-global), sans-serif;
+  font-size: var(--font-size-base);
+}
+
+

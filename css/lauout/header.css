@@ -1,0 +1,80 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+  background-image: url(/smeta/assets/images/bg-header.png), linear-gradient(#f7f8fa 50%, #f6f7f9);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 32%;
+  background-color: #F9FBFA;
+}
+
+.header__navbar{
+  margin-bottom: 160px;
+}
+
+.header__logo--text{
+  font-size: 3rem;
+  font-weight: 500;
+  color: rgba(34, 34, 34, 1);
+  text-decoration: none;
+}
+
+.header__content {
+  flex: 1;
+  z-index: 10;
+}
+
+.header__title {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+  line-height: 1.2;
+  width: 60%;
+}
+
+.header__title strong {
+  font-weight: 700;
+}
+
+.header__subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 50px;
+  width: 50%;
+}
+
+.header__features {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+.header__features::before{
+  display: block;
+  content: "";
+  width: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header__list {
+  list-style-type: none;
+}
+
+.header__list-item {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  max-width: 85%;
+}
+
+.header__image{
+  position: absolute;
+  border: 1px solid #000;
+  background-image: url('/Ykul/smeta/assets/images/bg-header.png');
+  width: 1000px;
+  height: 500px;
+  top:0;
+  right: 0;
+  z-index: 1;
+}

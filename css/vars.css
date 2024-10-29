@@ -1,0 +1,6 @@
+/*Основные переменные CSS*/
+:root{
+  --color-gray:rgba(244, 245, 247, 1);
+  --font-global: 'Montserrat';
+  --font-size-base: 16px;
+}
