@@ -1,0 +1,76 @@
+.price {
+  padding: 70px 0;
+  background-color: #f9f9f9;
+  font-size:0.85rem;
+  line-height: 1.4;
+}
+
+.price__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.price__title {
+  text-align: center;
+  min-width: 100%;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  font-weight:700;
+}
+
+.price__cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding:0 40px;
+}
+
+.price__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.price__card--highlighted {
+  border: 2px solid #fdd835;
+}
+
+.price__card-title {
+  margin-bottom: 20px;
+  font-size: 1.05rem;
+  min-width: 90%;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.price__list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.price__item {
+  margin-top: 15px;
+}
+
+.price__button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin:0 auto;
+}
+
+.price__note {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.price__contact-button {
+  display: block;
+  margin: 20px auto 0 auto;
+}

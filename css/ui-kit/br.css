@@ -1,0 +1,15 @@
+.br::after{
+  content: '';
+  display: block;
+  border-bottom: 1px solid #c2c2c2;
+  width: 33px;
+  margin: 20px auto;
+}
+
+.br--yellow::after{
+  content: '';
+  display: block;
+  border-bottom: 4px solid var(--color-yellow);
+  width: 33px;
+  margin-top:20px;
+}

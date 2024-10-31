@@ -2,10 +2,12 @@
 @import url(vars.css);
 @import url(fonts.css);
 @import url(ui-kit/text.css);
-@import url(ui-kit/promo.css);
 @import url(ui-kit/buttons.css);
+@import url(ui-kit/br.css);
 @import url(lauout/container.css);
 @import url(lauout/header.css);
+@import url(ui-kit/promo.css);
+@import url(lauout/price.css);
 
 
 body {
