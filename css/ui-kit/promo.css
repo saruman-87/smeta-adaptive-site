@@ -27,17 +27,7 @@
   align-items: center;
 }
 
-.promo__button {
-  position: relative;
-  top:30px;
-  background-color: #000;
-  color: #fff;
-  padding: 20px 60px;
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-  font-weight: 500;
-}
+
 
 .promo__price-tag {
   height: 0;

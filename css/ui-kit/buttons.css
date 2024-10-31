@@ -1,3 +1,25 @@
+.button {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.button--black {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.position--bottom {
+    position: relative;
+    top:30px;
+}
+
 .scroll-down {
     bottom: 20px;
     left: 50%;
