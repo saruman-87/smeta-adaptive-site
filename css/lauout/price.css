@@ -34,10 +34,10 @@
   padding: 30px;
   border-radius: 10px;
   flex: 1;
+  transition: all 0.3s ease-out;
 }
-
-.price__card--highlighted {
-  border: 2px solid #fdd835;
+.price__card:hover{
+  box-shadow: 1em 1em 0 0 white, 1em 1em 0 6px var(--color-yellow);
 }
 
 .price__card-title {
@@ -68,6 +68,11 @@
 .price__note {
   text-align: center;
   margin-top: 40px;
+}
+.price__note-subtitle{
+  text-align: center;
+  margin: 0 auto;
+  max-width: 60%;
 }
 
 .price__contact-button {
