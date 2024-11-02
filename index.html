@@ -4,17 +4,105 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Смета-сервис</title>
-  <link rel="stylesheet" href="./css/lauout/header.css">
+  <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-  <header class="header">  
+  <header class="header">
     <div class="container">
-      <nav class="header_navbar">
-        <div class="header_logo--text">
-          <span>Смета-сервис</span>
-        </div>
+      <nav class="header__navbar">
+        <a href="/" class="header__logo header__logo--text">Смета-сервис</a>
       </nav>
+      <div class="header__content">
+        <h2 class="title header__title"><strong>Разработаем и защитим смету</strong> для вашего проекта</h2>
+        <p class="subtitle header__subtitle">Составим отчетную документацию. Возьмем Вашу компанию на сметный аутсорсинг.</p>
+        <div class="header__features">
+          <ul class="header__list">
+            <li class="header__list-item">
+              <strong>Работаем под ключ:</strong> от заключения договора - до сдачи заказчику, сопровождаем заказчика до
+              получения положительного заключения государственной экспертизы (при необходимости)
+            </li>
+            <li class="header__list-item">
+              <strong>Составляем сметы любой сложности:</strong> на строительство, ремонт, пуско-наладочные и монтажные
+              работы, проектные и изыскательные работы
+            </li>
+            <li class="header__list-item">
+              <strong>Применяем нормативные базы:</strong> ФЕР, ТСНБ, МРР, СБЦ, РСС, НЦС
+            </li>
+          </ul>
+          <ul class="header__list">
+            <li class="header__list-item">
+              <strong>Рассчитываем сметы для разных целей:</strong> коммерческие, укрупненные для инвестиций, сметы для
+              участия в тендерах и для работы с бюджетными организациями
+            </li>
+            <li class="header__list-item">
+              <strong>Подготовим отчетные документы на выполненные работы:</strong> КС-2, КС-3, КС-6а, КС-11, М-29,
+              КС-6а
+            </li>
+            <li class="header__list-item">
+              <strong>Составляем сводные и объектные сметы</strong>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="promo">
+        <div class="promo__text">
+          Акция: <strong>при стоимости работ по расчету сметы от 10 000,00 руб. КС-2, КС-3 в подарок.</strong>
+        </div>
+        <div class="promo__button-container">
+          <button class="button button--black position--bottom">
+            Заказать
+          </button>
+        </div>
+        <div class="promo__price-tag">
+          <img src="/assets/images/sale.svg" alt="Акция">
+        </div>
+      </div>
+      <div class="scroll-down">
+        <div class="arrow"></div>
     </div>
   </header>
+  <section class="price">
+    <div class="container price__container">
+      <h2 class="title price__title br">Стоимость наших услуг</h2>
+      <div class="price__cards">
+        <div class="price__card">
+          <h3 class="subtitle price__card-title br--yellow">По объектам гражданского и производственного назначения</h3>
+          <ul class="price__list">
+            <li class="price__item">Минимальная сумма заказа по общестроительным работам – 4 000 рублей</li>
+            <li class="price__item">До 1 млн. <strong> — 1% от стоимости работ по смете</strong></li>
+            <li class="price__item">Свыше 1 млн. — до 5 млн. <strong> — 0,8% от стоимости работ по смете</strong></li>
+            <li class="price__item">Свыше 5 млн — до 10 млн. <strong> — 0,6% от стоимости работ по смете</strong></li>
+            <li class="price__item">Свыше 10 млн. <strong>— 0,5% от стоимости работ по смете</strong></li>
+          </ul>
+          <button class="button button--yellow price__button">Заказать</button>
+        </div>
+        <div class="price__card">
+          <h3 class="subtitle price__card-title br--yellow">По специальным, технически сложным и уникальным объектам</h3>
+          <ul class="price__list">
+            <li class="price__item">До 1 млн. <strong>— 3% от стоимости работ по смете</strong></li>
+            <li class="price__item">Свыше 1 млн. до 10 млн. <strong> — 2% от стоимости работ по смете</strong></li>
+            <li class="price__item">Свыше 10 млн. до 100 млн. <strong> — 1% от стоимости работ по смете</strong></li>
+            <li class="price__item">Свыше 100 млн. <strong> — 0,5% от стоимости работ по смете</strong></li>
+          </ul>
+          <button class="button button--yellow price__button">Заказать</button>
+        </div>
+        <div class="price__card">
+          <h3 class="subtitle price__card-title br--yellow">Дополнительные услуги</h3>
+          <ul class="price__list">
+            <li class="price__item">Проверка и экспертиза сметной документации — <b> с коэфф. 0.5;</b></li>
+            <li class="price__item">С составлением дефектных ведомостей (выезд оплачивается отдельно) — <b> с коэфф. 1.5;</b></li>
+            <li class="price__item">Составление дефектных ведомостей (без составления сметы) рассчитывается исходя из объема работ и места нахождения объекта: 1 выезд 1 специалист  — <b>7 000,00 рублей + 15 руб./км свыше 10 км от МКАД</b></li>
+          </ul>
+          <button class="button button--yellow price__button">Заказать</button>
+        </div>
+      </div>
+      <div class="price__note">
+        <p>Проектные и изыскательские работы — <b>40000 рублей</b> (за раздел сметы).</p>
+        <p class="subtitle price__note-subtitle">Расчеты производятся с применением сметных программных комплексов <b>Смета ру</b> и <b>Турбо сметчик</b>.</p>
+        <p>Для получения стоимости по вашему проекту – напишите нам</p>
+      </div>
+      <button class="button button--black price__contact-button">Написать</button>
+    </div>
+  </section>
 </body>
 </html>
