@@ -1,0 +1,79 @@
+.how-we-work {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.how-we-work__title {
+  text-align: center;
+  min-width: 100%;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  font-weight:700;
+}
+
+.how-we-work__info{
+    display: flex;
+    flex-direction: row;
+}
+
+.how-we-work__steps {
+    width: 60%;
+}
+
+.how-we-work__step {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid #000;
+    height: 110px;
+}
+
+.how-we-work__step-number {
+    display: flex;
+    background-color: #FFDA02;
+    color: black;
+    border: 1px solid #000;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.how-we-work__step-number::after{
+    content:'';
+    display: block;
+    background: linear-gradient(180deg, #FFD900 0%, rgba(255, 217, 0, 0) 100%);
+    height: 60px;
+    width: 6px;
+    position: relative;
+    bottom: -40px;
+}
+
+.how-we-work__step-description {
+    font-size: 1rem;
+    width: 60%;
+    font-weight:700;
+}
+
+.how-we-work__notice {
+    width: 50%;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.how-we-work__notice-title {
+    color: #FF5616;
+    font-size: 18px;
+}
+
+.how-we-work__notice-text {
+    font-size: 14px;
+    margin-top: 10px;
+}
