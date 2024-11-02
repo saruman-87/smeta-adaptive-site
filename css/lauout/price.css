@@ -1,6 +1,6 @@
 .price {
   padding: 70px 0;
-  background-color: #f9f9f9;
+  background-color: white;
   font-size:0.85rem;
   line-height: 1.4;
 }
@@ -35,6 +35,7 @@
   border-radius: 10px;
   flex: 1;
   transition: all 0.3s ease-out;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .price__card:hover{
   box-shadow: 1em 1em 0 0 white, 1em 1em 0 6px var(--color-yellow);
@@ -79,3 +80,4 @@
   display: block;
   margin: 20px auto 0 auto;
 }
+

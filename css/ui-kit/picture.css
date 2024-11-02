@@ -1,0 +1,8 @@
+.picture{
+  display: inline-block;
+}
+
+.picture--left{
+  position: absolute;
+  bottom:-200px;
+}
