@@ -16,3 +16,13 @@
   line-height: 1.2;
   margin-bottom: 50px;
 }
+
+.text-medium{
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
+.text-min{
+  font-size: 0.7rem;
+  line-height: 1.2;
+}
